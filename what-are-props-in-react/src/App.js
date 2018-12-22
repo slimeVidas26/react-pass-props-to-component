@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import Greeting_3 from './components/Greeting_3';
+import Greeting_4 from './components/Greeting_4';
+
 
 
 class App extends Component {
   render() {
-    const greeting = "Welcome to react greeting_3"
+    const greeting = "Welcome to react greeting_4"
 
     return (
       <div className="App">
-       <Greeting_3 greeting = {greeting}/>
+       <Greeting_4 greeting = {greeting}/>
       </div>
     );
   }
